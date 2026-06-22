@@ -1,0 +1,24 @@
+// revese array
+let array = [2, 4, 1, 6, 9, 5]
+for(i=array.length-1; i<array.length; i--)
+{
+    console.log(array[i]);
+    
+}
+
+output
+
+5
+9
+6
+1
+4
+2
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+undefined
+unde
