@@ -1,0 +1,25 @@
+let Number1 = Number("Enter your firstNumber");
+let Number2 = Number("Enter your secondNumber");
+let operator = Number("Enter your operator");
+let result = 
+switch(operator){
+    case'+':
+        result = (Number1 + Number2);
+        console.log("your addition is :" +result);
+        break;
+    case'*':
+        result = (Number1 * Number2);
+        console.log("your Multipication is:" +result);
+        break;
+    case'/':
+        result = (Number1 / Number2);
+        console.log("your Division is:" +result);
+        break;
+    case'-':
+        result = (Number1 - Number2);
+        console.log("your Subtraction is:" +result);
+        break; 
+        default:
+        console.log("invalid operator")
+    
+}
