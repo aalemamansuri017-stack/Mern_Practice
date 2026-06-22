@@ -1,0 +1,13 @@
+// print sum of All element
+let array = [2, 4, 1, 6, 9, 5]
+let sum = 0;
+for ( let i=0; i<array.length; i++)
+{
+    sum = sum + array[i];
+ // sum = sum + array.length[i]: is wrong
+}
+console.log(sum); 
+
+
+output:
+27
