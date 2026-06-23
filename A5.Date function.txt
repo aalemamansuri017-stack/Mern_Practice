@@ -1,0 +1,29 @@
+// Current Data and time 
+
+
+// Create a Date object
+let date = new Date();
+console.log("Current date:", date);
+
+// YEAR
+// getFullYear() built-in-function
+// Returns the Current Year
+console.log("Current Year:",date.getFullYear())
+
+// MONTH
+// getMonth() built-in-function
+// Returns the Current Month
+// Jan = 0, Feb = 1, ...Dec = 11 
+console.log("Current Month:", date.getMonth());
+
+// DATE
+// getDate() built-in-function
+// Returns the Current day pf the month
+console.log("Current Date:" ,date.getDate());
+
+
+// OUTPUT
+Current date: 2026-06-16T11:29:41.773Z
+Current Year: 2026
+Current Month: 5
+Current Date: 16
