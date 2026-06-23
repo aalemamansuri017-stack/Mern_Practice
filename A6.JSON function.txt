@@ -1,0 +1,42 @@
+/*
+.JSON function
+.JSON.stringify() and JSON.parse()
+1.JSON.stringify()
+. it is a built-in JSON function.
+. it converts a JavaScript object into a JSON string.
+2.JSON.stringify()
+. it is a built-in JSON function.
+. it converts a JSON string back into a JavaScript object.
+*/
+
+
+// JavaScript object
+let obj = {
+    name:"Ali",
+    age:22,
+    city:"Indore",
+};
+
+console.log("Original Object:")
+console.log(obj);
+
+// Convert Object to JSON String
+let json = JSON.stringify(obj);
+
+console.log("JSON String:");
+console.log(json);
+
+// Convert JSON String back to object
+let newObj = JSON.parse(json);
+console.log("JSON object:");
+console.log(newObj);
+
+
+OUTPUT:
+
+Original Object:
+{ name: 'Ali', age: 22, city: 'Indore' }
+JSON String:
+{"name":"Ali","age":22,"city":"Indore"}
+JSON object:
+{ name: 'Ali', age: 22, city: 'Indore' }
