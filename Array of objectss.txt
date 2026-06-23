@@ -1,0 +1,46 @@
+// Array of object
+
+let students = [
+    {
+    id: 1,
+    name: "Aalema",
+    age: 20,
+    course: "Computer Science"
+    },
+   {
+    id: 2,
+    name: "Aamir",
+    age: 29,
+    course: "B-tech"
+    },
+    {
+    id: 1,
+    name: "arafat",
+    age: 19,
+    course: "BA"
+    },
+] 
+console.log("Print all data:");
+console.log(students);
+console.log("");
+console.log();
+
+console.log("print 1st object's data");
+console.log(students[0]);
+
+console.log("print 2nd object's name only:");
+console.log(students[1].name);
+
+OUTPUT:
+Print all data:
+[
+  { id: 1, name: 'Aalema', age: 20, course: 'Computer Science' },
+  { id: 2, name: 'Aamir', age: 29, course: 'B-tech' },
+  { id: 1, name: 'arafat', age: 19, course: 'BA' }
+]
+
+
+print 1st object's data
+{ id: 1, name: 'Aalema', age: 20, course: 'Computer Science' }
+print 1st object's name only:
+Aamir
