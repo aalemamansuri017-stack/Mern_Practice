@@ -1,0 +1,17 @@
+// print even number
+let array = [2, 4, 1, 6, 9, 5]
+for(i=0; i<array.length; i++)
+{
+ if(array[i]%2==0)
+// if(i%2=0) : wrong
+ {
+    //  console.log(i); = wrong
+    console.log(array[i]);
+ }
+}
+
+
+output:
+2
+4
+6
