@@ -1,0 +1,29 @@
+// 3.string function
+
+let str = "Hello World";
+
+// length
+console.log(str.length);
+
+// toUpperCase()
+console.log(str.toUpperCase());
+
+// toLowerCase()
+console.log(str.toLowerCase());
+
+// includes()
+console.log(str.includes("World"));
+
+// slice
+console.log(str.slice(0, 5));
+
+// replace
+  console.log(str.replace("World", "Js")); //(w=f,W=t)case sensitive
+
+output:
+11
+HELLO WORLD
+hello world
+true
+Hello
+Hello Js
