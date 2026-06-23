@@ -1,0 +1,20 @@
+// Global Function
+parseInt()
+console.log(parseInt("10"));
+parseFloat()
+console.log(parseFloat("10.5"));
+isNaN()
+console.log(("abc"));
+Number()
+console.log(Number("123"));
+String()
+console.log(String(123));
+
+
+output:
+
+10
+10.5
+abc
+123
+123
