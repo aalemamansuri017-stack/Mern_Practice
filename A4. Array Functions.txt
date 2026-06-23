@@ -1,0 +1,51 @@
+// 4. Array Functions
+  
+let arr = [1, 2, 3, 4]; 
+
+// push() (insert element in last)
+arr.push(5);
+console.log(arr);
+
+// pop() (delete element in last)
+arr.pop();
+console.log(arr);
+
+// shift() (delete first element of arr)
+arr.shift();
+console.log(arr);
+
+// unshift() (insert element in first) 
+arr.unshift(0);
+console.log(arr);
+
+// map() (multiply by 2 in all elements of arr)
+let result = arr.map(x => x * 2); 
+console.log(result);
+
+// filter() {The Logic: For every element x, it checks if x > 2. If true, it keeps the element; if false, it skips it.Result: Since 1 and 2 are not greater than 2, they are excluded. Only 3 and 4 remain.}
+
+let Result = arr.filter(x => x > 2); 
+console.log(Result); //case sensitive (r, R)
+
+/* reduce() (If arr = [1, 2, 3, 4]
+    steps:Iteration 1: a = 1, b = 2  =>3
+          Iteration 2: a = 3, b = 3  =>6
+          Iteration 3: a = 6, b = 4  =>9
+          Final Result: sum = 9.) */
+ let sum = arr.reduce((a, b) => a + b); 
+ console.log(sum);
+
+// find() The Condition (x > 2): It checks if the current element is strictly greater than 2.
+let val = arr.find(x => x > 2);
+console.log(val);
+
+
+output:
+[ 1, 2, 3, 4, 5 ]
+[ 1, 2, 3, 4 ]
+[ 2, 3, 4 ]
+[ 0, 2, 3, 4 ]
+[ 0, 4, 6, 8 ]
+[ 3, 4 ]
+9
+3
